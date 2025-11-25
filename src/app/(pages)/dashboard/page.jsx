@@ -8,9 +8,9 @@ const page = () => {
   return (
     <div className="min-h-screen flex justify-center items-start py-6">
       {/* main rounded container */}
-      <div className="w-full  mr-20 bg-white border-b border-gray-200 flex items-center px-6">
+      <div className="w-full bg-white border-b border-gray-200 flex items-center">
         {/* SIDEBAR */}
-        <aside className="w-64 mt-[-200px] bg-white border-r border-gray-100 flex flex-col">
+        <aside className=" w-[256px] mt-[-180px] bg-white border-r border-[#E8EDF2] flex flex-col p-[25px]">
           
          
 
@@ -126,10 +126,11 @@ const page = () => {
           {/* heading + breadcrumb + date */}
           <div className="flex items-start justify-between mb-4">
             <div>
-              <p className="text-xs text-gray-400 mb-1">Home &gt; Dashboard</p>
-              <h1 className="text-2xl font-semibold text-gray-800">
+              <h1 className="text-2xl font-semibold text-gray-800 mb-[47px
+              ]">
                 Dashboard
               </h1>
+              <p className="text-xs text-gray-400 mb-1">Home &gt; Dashboard</p>
             </div>
             <div className="text-xs text-gray-400">
               Feb 15, 2022 – Feb 21, 2022

@@ -5,22 +5,24 @@ import Logo from "../../../public/Image/navlogo.png";
 import Browse from "../../../public/Image/export.png"; 
 import Togglee from "../../../public/Image/Toogle.png";
 import UserAvatar from "../../../public/Image/Avatar.png";
+import { PiMicrophone } from "react-icons/pi";
+
 
 const Navbar = () => {
   return (
    <section>
-    <div className="">
-         <nav className="w-full  bg-white border-b border-gray-200 flex items-center px-6">
+    <div className=" ">
+         <nav className="w-full py-3 bg-white border-b border-gray-200 flex justify-between items-center px-6">
       
       {/* LEFT: Logo */}
       <div className="flex items-center gap-2 mr-6">
-        <div className="h-8 w-8 rounded-lg bg-purple-600 flex items-center justify-center">
+        <div className="">
           <span className="text-white font-bold text-xl">
             <Image
             src={Logo}
             alt="Logo"
-            width={20}
-            height={20}
+            width={37}
+            height={31}
           />    
           </span>
         </div>
@@ -28,7 +30,7 @@ const Navbar = () => {
       </div>
 
 
-      <div className="toggle-theme-button justify-center items-center mr-6">
+      <div className="toggle-theme-button justify-center items-center ml-[67px]">
         <button>
             <Image
             src={Togglee}
@@ -44,13 +46,14 @@ const Navbar = () => {
       <div className="flex items-center gap-4 flex-1">
 
         {/* Search Bar */}
-        <div className="flex items-center bg-gray-100 rounded-full px-4 py-2 w-80">
-          <Search className="text-gray-400 h-4 w-4 mr-2" />
+        <div className="w-[360px] h-12 bg-[#F5F5FA] rounded-[13px] flex items-center px-[18px] py-[14px] ml-[33px] mr-[47px]" >
+          <Search className="text-[#7E7E8F] h-5 w-5 mr-2" />
           <input
             type="text"
             placeholder="Search"
-            className="bg-transparent outline-none text-sm text-gray-600 w-full"
+            className="bg-transparent outline-none text-[#C6CBD9] font-poppins font-semibold text-[14px] w-full"
           />
+          <PiMicrophone  className="text-[#C6CBD9] h-5 w-5 mr-2" />
         </div>
 
         {/* Browse */}
