@@ -10,7 +10,7 @@ const page = () => {
       {/* main rounded container */}
       <div className="w-full bg-white border-b border-gray-200 flex items-center">
         {/* SIDEBAR */}
-        <aside className=" w-[256px] mt-[-180px] bg-white border-r border-[#E8EDF2] flex flex-col p-[25px]">
+        <aside className=" w-[256px] mt-[-133px] bg-sky-300 border-r border-[#E8EDF2] flex flex-col p-[25px]">
           
          
 
